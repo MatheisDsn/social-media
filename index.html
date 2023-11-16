@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Réseaux Sociaux</title>
+    <link rel="shortcut icon" href="profile.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenu">
+        <img class="img_profile" src="profile.png">
+
+        <div>
+            <p class="blaze"><B>MrMenphis</B></p>
+            <p class=" descr">🏀<br>15 ans<br>01/05/2008<br><i>One life, live it.</i><br></p>
+        </div>
+
+        <div class="liens">
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/46JfJKA">
+                    <div class="div_img">
+                        <img class="img_logo" src="snapchat.png">
+                    </div>
+                    <p class="p_reseaux">Snapchat</p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/3pALQLM">
+                    <div class="div_img">
+                        <img class="img_logo img_instagram" src="instagram.png">
+                    </div>
+                    <p class="p_reseaux">Instagram</p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/3PJzyLE">
+                    <div class="div_img">
+                        <img class="img_logo" src="tiktok.png">
+                    </div>
+                    <p class="p_reseaux">TikTok</p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/3NMHSHH">
+                    <div class="div_img">
+                        <img class="img_logo" src="twitter.png">
+                    </div>
+                    <p class="p_reseaux"> Twitter </p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/3D4TYav">
+                    <div class="div_img">
+                        <img class="img_logo" src="threads.png">
+                    </div>
+                    <p class="p_reseaux">Threads</p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+
+            <div class="div_reseaux">
+                <a class="a_reseaux" target="_blank" href="https://bit.ly/43dFI9S">
+                    <div class="div_img">
+                        <img class="img_logo" src="facebook.png">
+                    </div>
+                    <p class="p_reseaux">Facebook</p>
+                    <div class="espacement"></div>
+                </a>
+            </div>
+        </div>
+        <p class="infos"> Site entièrement créé par <a href="mailto:matheisdasso@gmail.com?subject=Contact%20depuis%20matheis-dassonneville.com" class="lien_infos" > Mathéis Dassonneville</a>.</p>
+    </div>
+
+
+
+    <script>
+        // Obtenir la saison actuelle
+        const date = new Date();
+        const month = date.getMonth() + 1; // Les mois vont de 0 à 11
+        let currentSeason;
+      
+        if (month >= 1 && month <= 3) {
+          currentSeason = 'winter';
+        } else if (month >= 4 && month <= 6) {
+          currentSeason = 'spring';
+        } else if (month >= 7 && month <= 9) {
+          currentSeason = 'summer';
+        } else {
+          currentSeason = 'autumn';
+        }
+      
+        // Appliquer une classe au corps pour le style spécifique à la saison
+        document.body.setAttribute('data-season', currentSeason);
+      </script>
+
+</body>
+</html>
