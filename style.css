@@ -150,5 +150,9 @@ a.lien_infos{
     div.div_img{
         padding-left: 3%;
     }
+
+    p.descr{
+        color: #FFFFFF;
+    }
     
 }
