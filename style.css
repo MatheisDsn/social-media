@@ -117,6 +117,7 @@ img.img_logo{
 
 img.img_instagram{
     border-radius: 0;
+    box-shadow: none;
 }
 
 /* Style de la div de l'espacement pour la flexbox */
